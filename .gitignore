@@ -1,0 +1,10 @@
+﻿# Arquivos de trava do Office/LibreOffice
+.~lock*
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais
+venv/
+.venv/
