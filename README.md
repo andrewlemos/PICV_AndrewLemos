@@ -4,13 +4,13 @@ Repositório do projeto de **Iniciação Científica Voluntária (PICV)** vincul
 
 ---
 
-## 📌 Sobre o Projeto
+##  Sobre o Projeto
 
 Este trabalho tem como foco a **recuperação, o controle de qualidade e a análise de dados meteorológicos de superfície** da estação do CEPAGRI/UNICAMP.
 
 O objetivo principal é consolidar uma base de dados meteorológicos tratada e consistente a partir dos registros originais, avaliando possíveis quebras na série temporal — como a mudança de sítio da estação em maio de 2013 — e permitindo estudos futuros sobre **tendências climáticas e eventos extremos em Campinas-SP**.
 
-### 👨‍🔬 Equipe
+###  Equipe
 
 * **Aluno:** Andrew Filipe Moreira Lemos
 * **Orientadora:** Profª. Drª. Ana Maria H. de Avila
@@ -18,7 +18,7 @@ O objetivo principal é consolidar uma base de dados meteorológicos tratada e c
 
 ---
 
-## 📂 Arquivos Disponíveis
+##  Arquivos Disponíveis
 
 | Arquivo                                                | Descrição                                                                                                               |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
@@ -30,18 +30,18 @@ O objetivo principal é consolidar uma base de dados meteorológicos tratada e c
 
 ---
 
-## ⚙️ Etapa Concluída: Padronização e Fusão da Série Subdiária
+##  Etapa Concluída: Padronização e Fusão da Série Subdiária
 
 Foi desenvolvido e executado um pipeline para a **ingestão e unificação dos dados brutos**, com resolução temporal de **10 minutos**, abrangendo o período de **2013 a 2025**.
 
-### 🐍 Scripts
+###  Scripts
 
 * **Padronização e fusão:** `Padronização e Fusão das Séries Temporais.py`
 * **Arquivo gerado:** `ema_campinas_10min_2013_2025_bruta.parquet`
 * **Inspeção estrutural:** `inspecionar_parquet.py`
 * **Fatiador e exportador CLI:** `exportar_amostra.py` — extrai recortes temporais parametrizados via terminal em `.xlsx` ou `.csv`.
 
-### 🔧 Principais Ações Realizadas
+###  Principais Ações Realizadas
 
 1. **Reconstrução dos carimbos de data e hora**
 
@@ -70,7 +70,7 @@ Foi desenvolvido e executado um pipeline para a **ingestão e unificação dos d
 
 ---
 
-## 🚀 Como Executar
+##  Como Executar
 
 ### 1. Requisitos
 
@@ -161,7 +161,7 @@ python exportar_amostra.py --help
 
 ---
 
-## 📊 Estrutura do Processamento
+##  Estrutura do Processamento
 
 O fluxo atual do projeto pode ser representado da seguinte forma:
 
@@ -211,7 +211,7 @@ Dados originais
 
 ---
 
-## 🔬 Próximas Etapas
+##  Próximas Etapas
 
 As próximas etapas do projeto incluem:
 
@@ -224,7 +224,7 @@ As próximas etapas do projeto incluem:
 
 ---
 
-## 🏛️ Instituição
+##  Instituição
 
 **Centro de Pesquisas Meteorológicas e Climáticas Aplicadas à Agricultura — CEPAGRI**
 
